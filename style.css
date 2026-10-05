@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .body{
     min-height: 100vh;
     margin: 0;
@@ -9,6 +14,7 @@
     font-family: Roboto;
     background-color: #1F2937;
     color: white;
+    padding: 30px;
 }
 nav{
     width: 100%;
@@ -19,6 +25,7 @@ nav{
 nav h1{
     font-size: 24px;
     color: #F9FAF8;
+    padding: 30px;
 
 }
 nav ul li{
@@ -35,14 +42,21 @@ nav ul li a{
     font-size: 48px;
     color:#F9FAF8;
     font-weight: 900px;
+    padding: 30px;
 
 }
 .text-box p{
     font-size: 18px;
     color: #E5E7EB;
+    padding: 10px;
+    margin-right: 20px
 }
 .text-box button{
     background-color: #3882f6;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    color: white;
 }
 .image-container{
     display: flex;
@@ -79,13 +93,23 @@ ul, li{
     font-weight: bold;
     font-size: 1rem;
     background-color: #E5E7EB;
-    color: black; 
+    color: black;
 }
 
 .action{
     background-color: #3882F6;
     padding: 30px;
     margin: 10px;
+    color: white;
+    display:flex;
+    justify-content:space-between;
+}
+.action button{
+    background-color: #3882f6;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    color: white;
 }
 
 footer{
