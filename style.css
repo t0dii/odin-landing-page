@@ -79,9 +79,24 @@ ul, li{
     display: inline;
 }
 
-.information{
-    text-align: center;
+#information{
+    max-width:960px;
+    margin:10px auto;
     padding: 100px;
+    text-align:center;
+}
+#information figure{
+    display:inline-block;
+    max-width:960px;
+
+}
+#information img{
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+#information figcaption{
+    white-space: pre;
 }
 
 .quote{
